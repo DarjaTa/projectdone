@@ -73,7 +73,7 @@ body {
 }
 
 .site-article-content {
-  width: 10 00px;
+  width: 1000px;
 }
 
 
@@ -147,32 +147,32 @@ body {
 .site-navigation:hover .site-navigation-items {display: block;}
 .site-navigation:hover .nav-button {opacity: 0.5;}
 
-.active-image {
+.main-image {
 display:block;
 margin-bottom: 10px;
 }
 
-.gallery {
+.card {
   width: 980px;
   margin: 0 auto;
   padding-top: 10px;
 }
 
-.gallery-list {
+.slider-preview {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.gallery-list li {
+.slider-preview li {
   width: 140px;
   margin-right: 25px;
 }
-.gallery-list li:last-child {
+.slider-preview li:last-child {
   margin-right: 0;
 }
-.gallery-list a {
+.slider-preview a {
   position: relative;
   display:block;
 }
