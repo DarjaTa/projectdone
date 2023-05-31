@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu-grid-o.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+	<title>Регистрация</title>
+</head>
+<body>
+	<p class="reg-form">Регистрация</p>
+    <div class="registration-div">
+	<form class="registration" action="check.php" method="post">
+		<label for="name">Имя:</label>
+		<input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+		<label for="login">Электронный адрес:</label>
+		<input type="login" id="login" name="login" placeholder="Введите ваш email" required>
+
+		<label for="password">Пароль:</label>
+		<input type="password" id="password" name="password" placeholder="Введите ваш пароль" required>
+        
+		<button class="btn-success" type="submit">Зарегистрироваться</button>
+	</form>
+	<p class="reg-form">Авторизация</p>
+	<div class="registration-div">
+	<form class="registration" action="auth.php" method="post">
+		<label for="login">Электронный адрес:</label>
+		<input type="login" id="login" name="login" placeholder="Введите ваш email" required>
+		<label for="password">Пароль:</label>
+		<input type="password" id="password" name="password" placeholder="Введите ваш пароль" required>
+		<button class="btn-success" type="submit">Авторизоваться</button>
+	</form>
+</div>
+</body>
+</html>
